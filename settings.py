@@ -65,5 +65,5 @@ CHROME_PATH = r"C:\chrome-win64\chrome.exe"
 CHROMEDRIVER_PATH = r"C:\chromedriver-win64\chromedriver.exe"
 
 # 登录信息
-AEON_OPCD = "9002624"
-AEON_PASSWORD = "9002624d"
+AEON_OPCD = ""
+AEON_PASSWORD = ""
