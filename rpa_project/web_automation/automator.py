@@ -28,7 +28,7 @@ class AeonUploader:
         self.driver = webdriver.Chrome(service=service, options=options)
 
     def login(self):
-        self.driver.get("https://aduser.aeondelight.jp.net/adsso/websrc/sso/SsoLogin.jsp")
+        self.driver.get("")
         self.driver.find_element(By.NAME, "OPCD").send_keys(self.opcd, Keys.RETURN)
         self.driver.find_element(By.NAME, "PSWD").send_keys(self.password)
         self.driver.find_element(By.XPATH, "//button[text()='ログイン']").click()
